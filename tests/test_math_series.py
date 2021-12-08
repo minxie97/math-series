@@ -20,11 +20,13 @@ def test_fib_for_nth():
     assert fibonacci(3) == fib_eq(3)
     assert fibonacci(5) == fib_eq(5)
     assert fibonacci(8) == fib_eq(8)
+    assert fibonacci(13) == fib_eq(13)
 
 def test_lucas_for_nth():
     assert lucas(7) == lucas_eq(7)
     assert lucas(11) == lucas_eq(11)
     assert lucas(18) == lucas_eq(18)
+    assert lucas(29) == lucas_eq(29)
 
 def test_sum_series_for_nth():
     assert sum_series(3) == fib_eq(3)
